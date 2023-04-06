@@ -254,7 +254,7 @@
 }
 
 .vf {
-  color: #5f99ff;
+  color: #42856D;
 }
 
 .top-title {
@@ -337,8 +337,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-bottom: 1px solid #689af8;
-  border-left: 2px none #689af8;
+  border-bottom: 1px solid #42856D;
+  border-left: 2px none #42856D;
   background-color: transparent;
   -webkit-transition: all 508ms cubic-bezier(.77, 0, .175, 1);
   transition: all 508ms cubic-bezier(.77, 0, .175, 1);
