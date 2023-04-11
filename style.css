@@ -339,7 +339,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-bottom: 1px solid #42856D;
+  border-bottom: 1px solid #7DB7AB;
   border-left: 2px none #42856D;
   background-color: transparent;
   -webkit-transition: all 508ms cubic-bezier(.77, 0, .175, 1);
@@ -685,8 +685,8 @@
   padding-bottom: 3px;
   padding-left: 17px;
   border-right: 1px solid #000;
-  border-left: 1px solid #30B77E;
-  color: #30B77E;
+  border-left: 1px solid #9CC7CE;
+  color: #9CC7CE;
   line-height: 10px;
 }
 
