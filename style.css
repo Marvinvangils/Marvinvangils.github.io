@@ -2370,10 +2370,10 @@
     flex: 1;
   }
 
-  .polkjjh {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url("https://uploads-ssl.webflow.com/5b32655069229148933e1636/5b33cef6c698a7c2d167a448_Untitled-3.png");
-    background-image: linear-gradient(180deg, transparent, transparent), url("https://uploads-ssl.webflow.com/5b32655069229148933e1636/5b33cef6c698a7c2d167a448_Untitled-3.png");
-    background-position: 0px 0px, -359px 50%;
+/*   .polkjjh {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url("");
+    background-image: linear-gradient(180deg, transparent, transparent), url("");
+    background-position: 0px 0px, -359px 50%; */
   }
 
   .process {
