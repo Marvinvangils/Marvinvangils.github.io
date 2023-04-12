@@ -76,15 +76,28 @@
                 <div class="skilld"><strong class="bold-text">Wat ik leer</strong></div>
                 <h1>Website Development <br /></h1><a href="#"
                     class="sroll-button w-button">Wat ik doe op stage</a>
-  
-   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>           
-            
-            
-            
-            
-            
-            
             </div>
+             <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+            xample
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
             <div class="right-getr">
                 <p data-w-id="f4fc62fc-77c1-41ff-83e9-9e3ff7c30911"
                     style="-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0.03"
